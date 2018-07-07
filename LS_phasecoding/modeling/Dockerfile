@@ -31,6 +31,8 @@ RUN $VENV/bin/pip3 install lazyarray nrnutils PyNN jupyter
 WORKDIR /home/docker/
 RUN echo "source $VENV/bin/activate" >> .bashrc
 
+WORKDIR /home/docker/packages
+RUN git clone https://github.com/buzsakilab/buzcode
 RUN git clone https://github.com/DavidTingley/papers
 
 WORKDIR /home/docker/papers/LS_phasecoding/modeling
