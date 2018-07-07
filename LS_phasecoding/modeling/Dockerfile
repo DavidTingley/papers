@@ -35,4 +35,4 @@ WORKDIR /home/docker/packages
 RUN git clone https://github.com/buzsakilab/buzcode
 RUN git clone https://github.com/DavidTingley/papers
 
-WORKDIR /home/docker/papers/LS_phasecoding/modeling
+WORKDIR /home/docker/packages/papers/LS_phasecoding/modeling
