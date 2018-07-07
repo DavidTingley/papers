@@ -1,6 +1,10 @@
 # this is a simulation of CA1/CA3 'place field' populations that project onto a single LS neuron. 
 # david tingley 2018
 
+# The only difference between this model and the published version is the usage of 
+# STDP rather than static synapses. Leaving this here for future work studying how 
+# STDP rules influence this model.
+
 from pyNN.neuron import *
 import matplotlib.pyplot as plt
 import numpy as np
