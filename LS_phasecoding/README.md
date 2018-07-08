@@ -1,6 +1,6 @@
 This code can be used to replicate figures and the model from Tingley & Buzsaki 2018 (https://www.cell.com/neuron/abstract/S0896-6273(18)30336-2)
 
-You'll need:
+You will need:
 
 1) The data (link coming soon!)
 2) Buzcode 
