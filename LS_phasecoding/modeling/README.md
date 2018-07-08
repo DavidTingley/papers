@@ -1,4 +1,7 @@
 
+To run these scripts without installing anything, click here: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/DavidTingley/papers/master)
+
+Otherwise,
 1) Install docker: https://docs.docker.com/install/
 
 2) Once you have docker installed, run these commands in a terminal:
