@@ -26,7 +26,7 @@ RUN mkdir $NRN; \
     cd src/nrnpython; $VENV/bin/python setup.py install; \
     cd $VENV/bin; ln -s ../x86_64/bin/nrnivmodl
 
-RUN $VENV/bin/pip3 install lazyarray nrnutils PyNN jupyter
+RUN $VENV/bin/pip3 install lazyarray nrnutils PyNN==0.9.1 jupyter
 
 WORKDIR /home/docker/
 RUN echo "source $VENV/bin/activate" >> .bashrc
