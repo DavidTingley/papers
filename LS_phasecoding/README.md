@@ -3,7 +3,7 @@ This code can be used to replicate figures and the model from Tingley & Buzsaki 
 You will need:
 
 1) The data (link coming soon!)
-2) Buzcode 
+2) Buzcode repository
 
     (in terminal) `git clone https://github.com/buzsakilab/buzcode` or [here](https://github.com/buzsakilab/buzcode)
 
