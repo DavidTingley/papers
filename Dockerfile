@@ -31,7 +31,6 @@ WORKDIR /home/docker/
 RUN echo "source $VENV/bin/activate" >> .bashrc
 
 WORKDIR /home/docker/packages
-RUN git clone https://github.com/buzsakilab/buzcode
 RUN git clone https://github.com/DavidTingley/papers
 
 WORKDIR /home/docker/packages/papers/LS_phasecoding/modeling
