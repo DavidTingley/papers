@@ -7,7 +7,6 @@ ENV PATH=$PATH:$VENV/bin
 RUN ln -s /usr/bin/2to3-3.4 $VENV/bin/2to3
 
 WORKDIR $HOME/packages
-# RUN wget https://github.com/nest/nest-simulator/releases/download/v$NEST_VER/nest-$NEST_VER.tar.gz -O $HOME/packages/$NEST.tar.gz;
 RUN wget http://www.neuron.yale.edu/ftp/neuron/versions/v$NRN_VER/$NRN.tar.gz
 RUN tar xzf $NRN.tar.gz; rm $NRN.tar.gz
 RUN git clone --depth 1 https://github.com/INCF/libneurosim.git
